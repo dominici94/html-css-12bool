@@ -11,14 +11,20 @@
 }
 
 .box{
-    min-height: 120px;
+    min-height: 150px;
     background-color: pink;
     border: 1px solid black;
     padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nested-box{
-    min-height: 120px;
+    min-height: 150px;
     background-color: palevioletred;
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
