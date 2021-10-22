@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.box{
+    height: 120px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.nested-box{
+    height: 120px;
+    background-color: palevioletred;
+    border: 1px solid white;
+    margin: 2px;
+}
